@@ -1,3 +1,14 @@
-<script>
-    window.location.href = 'resume'
-</script>
+<html>
+    <head>
+        <link rel="manifest" href="manifest.json"/>
+        <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+        <script>
+        window.OneSignalDeferred = window.OneSignalDeferred || [];
+        OneSignalDeferred.push(async function(OneSignal) {
+            await OneSignal.init({
+            appId: "4fd7fe5a-7cfb-408b-9959-48cba95558e3",
+            });
+        });
+        </script>
+    </head>
+</html>

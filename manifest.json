@@ -1,0 +1,10 @@
+{
+    "name": "StrikerUnit",
+    "short_name": "StrikerUnit",
+    "display": "standalone",
+    "start_url": "/",
+    "icons": [
+      { "src": "/favicon.ico", "sizes": "32x32", "type": "image/x-icon" }
+    ],
+    "id": "?homescreen=1"
+  }
